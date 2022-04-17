@@ -13,8 +13,9 @@ body {
 
 a {color: #FFF;font-size: 14px;}
 a:hover {color: #FF9900;}
-div {
-
+p {
+	white-space:normal;
+	overflow-wrap: anywhere;
 }
 table {
 	text-align: center;
@@ -46,7 +47,11 @@ h2{
 	color: #FF9900;
 	text-align: center;
 }
-
+h3{
+	text-align: center;
+}
+a {color: #0099FF;font-size: 14px;}
+a:hover {color: #99FF00;}
 /* thanks https://css-tricks.com/snippets/css/typewriter-effect/*/
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
