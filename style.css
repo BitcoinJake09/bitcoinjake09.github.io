@@ -1,0 +1,72 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	padding-top: 0px;
+	background-color: #000000;
+	color: #FF9900;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+a {color: #FFF;font-size: 14px;}
+a:hover {color: #FF9900;}
+div {
+
+}
+table {
+	text-align: center;
+	width: 80%;
+	max-width: 600px;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	white-space:normal;
+}
+th {
+	text-align: center;
+	max-width: 300px;
+	min-width: 150px;
+}
+td {
+	text-align: left;
+	border: 2px solid orange;
+	overflow-wrap: anywhere;
+}
+
+h1{
+	font-size: 20px;
+	color: #FF9900;
+	text-align: center;
+}
+h2{
+	font-size: 14px;
+	color: #FF9900;
+	text-align: center;
+}
+
+/* thanks https://css-tricks.com/snippets/css/typewriter-effect/*/
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect - bitcoinjake09 changed 100% from 50% to remove blinking cursor :p*/
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  100% { border-color: orange; }
+}
