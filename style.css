@@ -10,17 +10,32 @@ body {
 	text-align: center;
 	letter-spacing: 1px;
 }
-
+img{
+	height:auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 a {color: #FFF;font-size: 14px;}
 a:hover {color: #FF9900;}
 p {
 	white-space:normal;
 	overflow-wrap: anywhere;
 }
+div {
+	text-align: center;
+	width: 80%;
+	max-width: 800px;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	white-space:normal;
+}
 table {
 	text-align: center;
 	width: 80%;
-	max-width: 600px;
+	max-width: 800px;
 	table-layout: fixed;
 	margin-left: auto;
 	margin-right: auto;
